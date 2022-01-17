@@ -19,10 +19,10 @@ RSpec.describe 'App Functional Test' do
 
       # Expected format of each entry: `<first_name>, <city>, <birthdate M/D/YYYY>`
       expect(normalized_people).to eq [
-        'Elliot, New York City, 5/4/1947',
-        'Mckayla, Atlanta, 5/29/1986',
-        'Rhiannon, Los Angeles, 4/30/1974',
-        'Rigoberto, New York City, 1/5/1962',
+        'Elliot, New York City, 05/04/1947',
+        'Mckayla, Atlanta, 05/29/1986',
+        'Rhiannon, LA, 04/30/1974',
+        'Rigoberto, NYC, 01/05/1962',
       ]
     end
   end
